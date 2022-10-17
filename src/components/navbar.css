@@ -1,0 +1,43 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(3, 25, 61);
+    padding: 5px 10px;
+    position: sticky;
+    top:0px
+
+}
+
+.nav-img{
+    height: 49px;
+    width: auto;
+}
+.navbar-child-2{
+    /* border: 2px solid red; */
+    min-width: 400px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav-links{
+    text-decoration: none;
+    color: white ;
+    padding: 0px  4px;
+    border-bottom: 2px solid yellow;
+}
+.nav-links:hover{
+    color:   rgb(3, 25, 61);
+    background-color: yellow;
+    border-bottom: 0px solid yellow;
+    border-top: 2px solid yellow;
+}
+
+.form-btn{
+    text-decoration: none;
+    background-color: rgb(254, 205, 9);
+    margin: 0px 20px 0px 0px;
+    padding: 5px 10px;
+    border: 1px solid white;
+    border-radius: 20px;
+    color:  rgb(3, 25, 61);
+}
