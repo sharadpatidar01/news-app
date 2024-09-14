@@ -15,7 +15,7 @@ Here are a few screenshots of the project:
    ![About Page](https://github.com/sharadpatidar01/news-app/blob/main/Screenshot_1.png)
 
 3. **Contact View**  
-   ![Page View](https://github.com/sharadpatidar01/news-app/blob/main/Screenshot_1.png)
+   ![Page View](https://github.com/sharadpatidar01/news-app/blob/main/Screenshot_2.png)
 
 ## 🛠️ Technologies Used
 
