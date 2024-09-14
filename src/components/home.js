@@ -8,7 +8,7 @@ export default function Home(props) {
     const [data, setData] = useState([]);
 
     useEffect(()=>{
-            axios.get("https://newsapi.org/v2/top-headlines?country=in&category=general&apiKey=bf93f00eb71846148eb26500605ea59a")
+            axios.get("https://newsapi.org/v2/top-headlines?country=us&category=general&apiKey=bf93f00eb71846148eb26500605ea59a")
                 .then((res) => {
                     setHeading("General")
                     setData(res.data.articles)
@@ -16,14 +16,14 @@ export default function Home(props) {
         },[])
 
     const getGeneralData = () => {
-        axios.get("https://newsapi.org/v2/top-headlines?country=in&category=general&apiKey=bf93f00eb71846148eb26500605ea59a")
+        axios.get("https://newsapi.org/v2/top-headlines?country=us&category=general&apiKey=bf93f00eb71846148eb26500605ea59a")
             .then((res) => {
                 setHeading("General")
                 setData(res.data.articles)
             })
     }
     const getSportsData = () => {
-        axios.get("https://newsapi.org/v2/top-headlines?country=in&category=sports&apiKey=bf93f00eb71846148eb26500605ea59a")
+        axios.get("https://newsapi.org/v2/top-headlines?country=us&category=sports&apiKey=bf93f00eb71846148eb26500605ea59a")
             .then((res) => {
                 setHeading("Sports")
                 setData(res.data.articles)
@@ -37,28 +37,28 @@ export default function Home(props) {
             })
     }
     const getEntertainmentData = () => {
-        axios.get("https://newsapi.org/v2/top-headlines?country=in&category=entertainment&apiKey=bf93f00eb71846148eb26500605ea59a")
+        axios.get("https://newsapi.org/v2/top-headlines?country=us&category=entertainment&apiKey=bf93f00eb71846148eb26500605ea59a")
             .then((res) => {
                 setHeading("Entertainment")
                 setData(res.data.articles)
             })
     }
     const getTechnologyData = () => {
-        axios.get("https://newsapi.org/v2/top-headlines?country=in&category=technology&apiKey=bf93f00eb71846148eb26500605ea59a")
+        axios.get("https://newsapi.org/v2/top-headlines?country=us&category=technology&apiKey=bf93f00eb71846148eb26500605ea59a")
             .then((res) => {
                 setHeading("Technology")
                 setData(res.data.articles)
             })
     }
     const getBusinessData = () => {
-        axios.get("https://newsapi.org/v2/top-headlines?country=in&category=business&apiKey=bf93f00eb71846148eb26500605ea59a")
+        axios.get("https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=bf93f00eb71846148eb26500605ea59a")
             .then((res) => {
                 setHeading("Business")
                 setData(res.data.articles)
             })
     }
     const getHealthData = () => {
-        axios.get("https://newsapi.org/v2/top-headlines?country=in&category=health&apiKey=bf93f00eb71846148eb26500605ea59a")
+        axios.get("https://newsapi.org/v2/top-headlines?country=us&category=health&apiKey=bf93f00eb71846148eb26500605ea59a")
             .then((res) => {
                 setHeading("Health")
                 setData(res.data.articles)
