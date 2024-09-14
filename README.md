@@ -9,13 +9,13 @@ This project is a React-based news application that fetches the latest news from
 Here are a few screenshots of the project:
 
 1. **Home Page**  
-   ![Home Page](https://your-repository-link/screenshots/home-page.png)
+   ![Home Page](https://github.com/sharadpatidar01/news-app/blob/main/Screenshot_3.png)
 
 2. **About Page**  
-   ![About Page](https://your-repository-link/screenshots/category-page.png)
+   ![About Page](https://github.com/sharadpatidar01/news-app/blob/main/Screenshot_1.png)
 
 3. **Contact View**  
-   ![Page View](https://your-repository-link/screenshots/mobile-view.png)
+   ![Page View](https://github.com/sharadpatidar01/news-app/blob/main/Screenshot_1.png)
 
 ## 🛠️ Technologies Used
 
