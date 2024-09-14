@@ -16,7 +16,7 @@ export default function About() {
                                 Hello There!
                             </p>
                             <h1>
-                                I'm Ram Sharma
+                                I'm Sharad Patidar
                             </h1>
                         </div>
                         <div class="about-content">
