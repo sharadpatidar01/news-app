@@ -3,6 +3,10 @@
 
 This project is a React-based news application that fetches the latest news from different categories using the [NewsAPI](https://newsapi.org/). It allows users to browse news articles from categories like General, Technology, Sports, Business, Entertainment, and more.
 
+## 🌐 Live Demo
+
+View the live demo here: [News App - Live Demo](https://news-app-beta-olive.vercel.app)
+
 
 ## 📷 Screenshots
 
